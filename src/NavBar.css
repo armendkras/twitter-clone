@@ -1,0 +1,19 @@
+.navBar{
+    
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    background-color: var(--twitter-background);
+    display: flex;
+   
+    
+}
+
+@media(min-width: 500px){
+    .navBar{
+        display: none;
+    }
+}
